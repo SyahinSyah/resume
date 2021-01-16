@@ -10,16 +10,17 @@ $(document).ready(function(){
         }
         if(this.scrollY > 500)
         {
-            $('.scroll-up-button').addClass("show");
+            $('.scroll-up-btn').addClass("show");
         }
         else
         {
-            $('.scroll-up-button').removeClass("show");
+            $('.scroll-up-btn').removeClass("show");
         }
         });
 
+        
         // slide-up script 
-        $('.scroll-up-button').click(function()
+        $('.scroll-up-btn').click(function()
         {
             $('html').animate({scrollTop: 0});
         });
@@ -33,14 +34,14 @@ $(document).ready(function(){
 
         //typing animation script
         var typed = new Typed(".typing", {
-            strings : ["Web Developer" , "Vlogger" , "Coacher" , "Freelancer"],
+            strings : ["" , "Web Developer" , "Programming Tutor" , "Freelancer"],
             typeSpeed:100,
             backSpeed:60,
             loop:true
         });
 
         var typed = new Typed(".typing-2", {
-            strings : ["Developer" , "Vlogger" , "Coacher" , "Freelancer"],
+            strings : ["" , "Web Developer" , "Programming Tutor" , "Freelancer"],
             typeSpeed:100,
             backSpeed:60,
             loop:true

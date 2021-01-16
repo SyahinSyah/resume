@@ -82,7 +82,7 @@ html{
     cursor: pointer;
     display: none;
 }
-.scroll-up-button
+.scroll-up-btn
 {
     position: fixed;
     height: 45px;
@@ -102,7 +102,7 @@ html{
     transition: all 0.3s ease;
 }
 
-.scroll-up-button.show
+.scroll-up-btn.show
 {
     bottom: 30px;
     opacity: 1;
@@ -290,7 +290,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-   content: "what i provide";
+   content: "what i interest";
 
 }
 

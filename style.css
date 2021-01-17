@@ -114,10 +114,14 @@ html{
 /* home section style */
 .home{
     display: flex;
-   
+/*    
+    background-size: cover; 
+    background-attachment:fixed; */
+    background: url("images/isec2.jpg") no-repeat  center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
-    background: url("images/banner2.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;

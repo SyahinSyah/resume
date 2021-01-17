@@ -224,7 +224,7 @@ section .title::after{
 /* about section  */
 
 .about .title::after{
-    content: "who i am";
+    content: "who I am";
 }
 
 .about .about-content .left 
@@ -294,7 +294,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-   content: "what i interest";
+   content: "what I interest";
 
 }
 
